@@ -1,0 +1,78 @@
+body { 
+    color: black;
+	max-height: 100%;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.container, .container_template {
+    max-width: 600px;
+    max-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    margin-top: 50px;
+}
+.posts {
+    padding: 20px;
+    font-weight: 600;
+}
+.posts_title {
+    font-size: 24px;
+}
+.posts_body {
+    font-size: 18px;
+}
+.comments {
+    padding: 0 20px 20px 20px;
+    font-weight: 600;
+}
+.comments_border {
+    margin: 0;
+    padding-left: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+}
+.container_template {
+    display: none;
+}
+.hidden {
+    display: none;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: 1px solid #ffffff;
+    border-radius: 1px;
+    border: none;
+}
+  
+.hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+  
+.pagination button.active {
+    background-color: #ff0000;
+    color: white;
+}
