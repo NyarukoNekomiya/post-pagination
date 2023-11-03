@@ -5,7 +5,8 @@ function reply_click(clicked_id)
 
     if (content.classList.contains("hidden")) {
         button.textContent = "Hide";
-    } else {
+    } 
+    else {
         button.textContent = "Show";
     }
 

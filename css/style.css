@@ -10,36 +10,32 @@ li {
 }
 .container, .container_template {
     max-width: 600px;
-    max-height: 900px;
+    max-height: 1600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    border-radius: 20px;
-    box-shadow: 0 0 15px;
-    margin-top: 50px;
+    border-radius: 30px;
+    border: solid;
+    margin-top: 40px;
 }
 .posts {
     padding: 20px;
-    font-weight: 600;
 }
 .posts_title {
-    font-size: 24px;
+    font-size: 28px;
 }
 .posts_body {
     font-size: 18px;
 }
 .comments {
     padding: 0 20px 20px 20px;
-    font-weight: 600;
 }
 .comments_border {
-    margin: 0;
-    padding-left: 20px;
-    font-weight: 600;
-    background-color: black;
-    color: white;
+    padding-left: 450px;
+    font-weight: 700;
+    color: black;
 }
 .container_template {
     display: none;
@@ -50,15 +46,15 @@ li {
 
 .pagination {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
   
 .pagination button {
-    padding: 5px 10px;
+    padding: 10px 15px;
     margin: 0 5px;
     cursor: pointer;
     outline: 1px solid #ffffff;
-    border-radius: 1px;
+    border-radius: 30px;
     border: none;
 }
   
@@ -75,4 +71,9 @@ li {
 .pagination button.active {
     background-color: #ff0000;
     color: white;
+}
+.horizontalLine {
+    border-top:2px solid black;
+    height:5px;
+    margin:16px 0;
 }

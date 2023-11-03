@@ -46,4 +46,4 @@ document.addEventListener('DOMContentLoaded', function () {
   
     createPageButtons();
     showPage(currentPage);
-  });
+});
