@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<head>
-    <title>Pagination</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="js/import.js" defer></script>
-    <script src="js\comments_hiding.js" defer></script>
-    <script src="js\pagination.js" defer></script>
-</head>
-<body>
-    <section class="main" id="post">
-        <div class="container_template">
-            <div class="posts">
-                <ul class="post">
-                    <li class="posts_id">Post #</li>
-                    <li class="posts_title">Caption<br /></li>
-                    <li><br /></li>
-                    <li class="posts_body">Some Text</li>
-                </ul>
+<html>
+    <head>
+        <title>Pagination</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="module" src="js/import.js" defer></script>
+        <script src="js\comments_hiding.js" defer></script>
+        <script src="js\pagination.js" defer></script>
+    </head>
+    <body>
+        <section class="main" id="post">
+            <div class="container_template">
+                <div class="posts">
+                    <ul class="post">
+                        <li class="posts_id">Post #</li>
+                        <li class="posts_title">Caption<br /></li>
+                        <li><br /></li>
+                        <li class="posts_body">Some Text</li>
+                    </ul>
+                </div>
+                <p class="comments_border">Comments
+                    <button class="btn">Show</button>
+                </p>
+                <div class="comments">
+                    <ul class="comment">
+                        <li class="comments_id"></li>
+                        <li class="comments_name">name</li>
+                        <li class="comments_email">Email</li>
+                        <li class="comments_body">Some Text</li>
+                    </ul>
+                </div>
             </div>
-            <p class="comments_border">Comments
-                <button class="btn">Show</button>
-            </p>
-            <div class="comments">
-                <ul class="comment">
-                    <li class="comments_id"></li>
-                    <li class="comments_name">name</li>
-                    <li class="comments_email">Email</li>
-                    <li class="comments_body">Some Text</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 </html>
